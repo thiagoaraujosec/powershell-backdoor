@@ -1,5 +1,6 @@
 # powershell-backdoor
-Backdoor en Powershell para obtener una reverse shell
+
+# Backdoor en Powershell para obtener una reverse shell
 
 # Uso:
 Primero que nada antes de ejecutar el backdoor debemos de modificar ciertos parametros en el archivo Backdoor.ps1, las variables $address y $port hay que modificarlas, en $address hay que colocar la IP de la maquina atacante, y en $port hay que colocar el puerto por el cual se hara la conexion, y por el que el atacante estara a la escucha.
@@ -12,7 +13,7 @@ Luego el atacante va a estar a la escucha de una conexion por medio de netcat
 
 nc -lvp "el puerto que se haya colocado"
 
-# Ejemplo:
+Ejemplo:
 
 nc -lvp 4444
 
